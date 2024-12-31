@@ -1,0 +1,17 @@
+{
+  "name": "pinecone-example",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^4.0.0",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7",
+    "openai": "^4.77.0"
+  }
+}
